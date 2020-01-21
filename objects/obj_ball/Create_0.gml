@@ -1,4 +1,4 @@
 /// @description Insert description here
-// You can write your code in this editor
+// Establish initial variables
 direction = 90;
 speed = 1;
