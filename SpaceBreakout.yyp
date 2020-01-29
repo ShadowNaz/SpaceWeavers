@@ -767,6 +767,14 @@
             }
         },
         {
+            "Key": "fbc9b706-04e2-4fd0-944a-d4bee8e874d3",
+            "Value": {
+                "id": "905c0eb3-789d-4e40-9f45-549019de81d3",
+                "resourcePath": "objects\\obj_laser\\obj_laser.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fbd8ad0d-45f0-45a2-b33d-e51c13af0bc3",
             "Value": {
                 "id": "1221d6e1-0286-4c36-9a1c-c9b553b012db",
