@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(!returning)
-{
+//if(!returning)
+//{
 	audio_play_sound(snd_unbreakable,20,false);
 	
 	screen_shake.shake = true;
@@ -14,4 +14,4 @@ if(!returning)
 
 	speed = 3;
 	returning=true;
-}
+//}

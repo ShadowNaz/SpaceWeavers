@@ -5,9 +5,3 @@ score=0;
 carbon=0;
 water=0;
 energy=0;
-
-switch(room)
-{
-	case level1:audio_play_sound(snd_music,1,true);
-		break;
-}

@@ -3,7 +3,6 @@
 sprite_set_speed(sprite_index,0,spritespeed_framespersecond);
 ship_audio_exhaust = audio_play_sound(snd_exhaust,10,true);
 audio_sound_gain(ship_audio_exhaust, 0, 0);
-ship_audio_engine = audio_play_sound(snd_engine,10,true);
 
 center_point = instance_find(obj_center,0);
 paddle = instance_find(obj_ship,0);

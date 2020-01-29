@@ -4,6 +4,7 @@ if(keyboard_check(vk_space) && image_index==0)
 {
 	image_index = 1;
 	instance_create_layer(x,y,"Instances",obj_ball);
+	audio_play_sound(snd_laser,20,false);
 }
 	
 if(keyboard_check(vk_left))
