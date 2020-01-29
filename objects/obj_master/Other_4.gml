@@ -1,4 +1,3 @@
 /// @description Insert description here
-// Establish initial variables
-center_point = instance_find(obj_center,0);
-paddle = instance_find(obj_paddle,0);
+// You can write your code in this editor
+water=0;

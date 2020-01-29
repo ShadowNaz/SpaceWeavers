@@ -18,6 +18,7 @@ if(other.image_index <= 0)
 }
 else
 {
+	instance_create_layer(other.x,other.y,"Minerals",obj_mineral_ice);
 	instance_destroy(other);
 	audio_play_sound(snd_ice_2,20,false);
 }

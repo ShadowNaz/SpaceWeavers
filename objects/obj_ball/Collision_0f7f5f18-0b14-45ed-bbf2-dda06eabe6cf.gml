@@ -3,6 +3,8 @@
 
 if(!returning)
 {
+	audio_play_sound(snd_unbreakable,20,false);
+	
 	screen_shake.shake = true;
 	screen_shake.alarm[0] = 10;
 
@@ -10,6 +12,6 @@ if(!returning)
 	direction+=irandom_range(-20,20);
 	move_outside_solid(direction,2000);
 
-	speed = 1;
+	speed = 3;
 	returning=true;
 }
