@@ -37,7 +37,7 @@ switch(room)
 	break;
 	case level2:
 		if(room_complete)
-			if(water>=3 && ore>=3)
+			if(water>=3 && ore>=6)
 				room_goto_next();
 			else if (water<3)
 				room_goto(game_no_fuel);
@@ -46,7 +46,7 @@ switch(room)
 	break;
 	case level3:
 		if(room_complete)
-			if(water>=3 && ore>=3)
+			if(water>=3 && metal>=3)
 				room_goto_next();
 			else if (water<3)
 				room_goto(game_no_fuel);
@@ -55,18 +55,18 @@ switch(room)
 	break;
 	case level4:
 		if(room_complete)
-			if(water>=3 && ore>=3)
+			if(water>=4 && metal>=6)
 				room_goto_next();
-			else if (water<3)
+			else if (water<4)
 				room_goto(game_no_fuel);
 			else
 				room_goto(game_no_mineral);
 	break;
 	case level5:
 		if(room_complete)
-			if(water>=3 && ore>=3)
+			if(water>=4 && radioactive>=4)
 				room_goto(game_win);
-			else if (water<3)
+			else if (water<4)
 				room_goto(game_no_fuel);
 			else
 				room_goto(game_no_mineral);

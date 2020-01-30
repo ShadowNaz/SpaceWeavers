@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 sprite_set_speed(sprite_index,0,spritespeed_framespersecond);
-ship_audio_exhaust = audio_play_sound(snd_exhaust,10,true);
+ship_audio_exhaust = audio_play_sound(snd_exhaust,30,true);
 audio_sound_gain(ship_audio_exhaust, 0, 0);
 
 center_point = instance_find(obj_center,0);

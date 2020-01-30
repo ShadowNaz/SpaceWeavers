@@ -3,7 +3,7 @@
 lives=3;
 score=0;
 carbon=0;
-water=3;
+water=1;
 energy=0;
 ore=0;
 metal=0;
