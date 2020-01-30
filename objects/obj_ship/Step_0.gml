@@ -1,5 +1,19 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+with(obj_ui_left)
+	image_alpha = 0;
+with(obj_ui_launch)
+	image_alpha = 0;
+with(obj_ui_right)
+	image_alpha = 0;
+
+if(keyboard_check(vk_space))
+{
+	with(obj_ui_launch)
+		image_alpha = 1;
+}
+
 if(keyboard_check(vk_space) && image_index==0)
 {
 	image_index = 1;
@@ -9,6 +23,8 @@ if(keyboard_check(vk_space) && image_index==0)
 	
 if(keyboard_check(vk_left))
 {
+	with(obj_ui_left)
+		image_alpha = 1;
 	distance = point_distance(center_point.x,center_point.y,x,y);
 	angle = point_direction(center_point.x,center_point.y,x,y);
 	
@@ -26,6 +42,8 @@ if(keyboard_check(vk_left))
 
 if(keyboard_check(vk_right))
 {
+	with(obj_ui_right)
+		image_alpha = 1;
 	distance = point_distance(center_point.x,center_point.y,x,y);
 	angle = point_direction(center_point.x,center_point.y,x,y);
 	

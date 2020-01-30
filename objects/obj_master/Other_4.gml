@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-water=0;
+water-=3;
 audio_stop_all();
 
 switch(room)

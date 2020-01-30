@@ -9,7 +9,7 @@
 	screen_shake.alarm[0] = 10;
 
 	direction-=180;
-	direction+=irandom_range(-20,20);
+	direction+=irandom_range(-45,45);
 	move_outside_solid(direction,2000);
 
 	speed = 3;
